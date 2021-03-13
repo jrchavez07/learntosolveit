@@ -12,6 +12,8 @@
 int mgetline(char line[],int maxline);
 void squeeze(char s1[],char s2[]);
 
+enum {OFF, ON};
+
 int main(void)
 {
 	char s1[MAXLINE],s2[MAXLINE];
