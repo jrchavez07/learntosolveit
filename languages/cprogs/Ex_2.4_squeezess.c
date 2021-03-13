@@ -12,7 +12,7 @@
 int mgetline(char line[],int maxline);
 void squeeze(char s1[],char s2[]);
 
-enum {OFF, ON};
+enum {OFF, ON} state;
 
 int main(void)
 {
